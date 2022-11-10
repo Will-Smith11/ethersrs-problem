@@ -1,6 +1,6 @@
 use std::{sync::Arc, str::FromStr};
 
-use ethers::{prelude::{Provider, Http, abigen}, types::H160};
+use ethers::{prelude::{Provider, Http}, types::H160};
 use adapters::test_abi::test_abi::test_abi;
 
 #[tokio::main]
